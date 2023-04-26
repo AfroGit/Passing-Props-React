@@ -18,9 +18,11 @@ function Avatar({ person, size }) {
     />
   );
 }
-
+const user = {name: 'Tricia speller'}
 export default function Profile() {
   return (
+    <>
+      <h3>{user.name}</h3>
     <Avatar
       size={200}
       person={{ 
@@ -29,6 +31,7 @@ export default function Profile() {
         imageId: '7vQD0fP'
       }}
     />
+    </>
   );
 }
 
