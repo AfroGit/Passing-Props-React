@@ -18,7 +18,7 @@ function Avatar({ person, size }) {
     />
   );
 }
-const user = {name: 'Tricia speller'}
+const user = {name: 'Tricia Speller'}
 export default function Profile() {
   return (
     <>
